@@ -16,11 +16,6 @@ class Colors:
 
 randomChar = string.ascii_lowercase + string.ascii_uppercase + string.punctuation + string.digits
 
-def generatePassword():
-    userInput = int(input("Enter a password length: "))
-    password = ''.join(secrets.choice(randomChar) for _ in range(userInput))
-    print(password)
-
 def generateRandomPassword():
     passwordLength = random.randint(8, 24)
     passwordRandom = ''.join(secrets.choice(randomChar) for _ in range(passwordLength))
@@ -54,5 +49,6 @@ def generateMethod():
     if userInput == 2:
         sys.exit()
     else: pass
+
 
 generateMethod()

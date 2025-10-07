@@ -8,4 +8,4 @@ Created Project(s)
 
 2nd Project: pwGenerator (Random Password Generator)
  - This project just randomly generates a password between 8-24 characters.
- - Password characters included; numbers, lowercase, uppercase and special characters
+ - Using numbers, special characters, and lowercase/uppercase letters.
